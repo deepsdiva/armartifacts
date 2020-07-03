@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "ApimServiceName": {
+      "value": "apimpocimport"
+    },
+    "LinkedTemplatesBaseUrl": {
+      "value": "https://raw.githubusercontent.com/anjanpaul123/arm-demo/master/templates"
+    },
+    "PolicyXMLBaseUrl": {
+      "value": "https://raw.githubusercontent.com/anjanpaul123/arm-demo/master/policies"
+    },
+    "NamedValues": {
+      "value": {
+        "DynamiicURL": "https://a.b.c",
+        "ValidationKey": "ValidationKey"
+      }
+    }
+  },
+  "resources": []
+}
